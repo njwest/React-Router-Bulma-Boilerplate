@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 export const Code = () => (
   <div className="hero-body">

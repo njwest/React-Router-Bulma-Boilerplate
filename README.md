@@ -1,5 +1,5 @@
 # React-Router-Bulma-Boilerplate
-A boilerplate React web app created with react-create-app, Bulma CSS in /public, and React Router-DOM set up
+A boilerplate React web app created with react-create-app, Bulma CSS in `/public` and  in `/node_modules`, and React Router-DOM set up
 
 ### Installation
 
@@ -8,6 +8,10 @@ A boilerplate React web app created with react-create-app, Bulma CSS in /public,
 2. `yarn install`
 
 3. `yarn start`
+
+#### Note about Bulma
+
+If you want to use Bulma as a node package/Bulma SASS/etc, delete the Bulma.css `<link />` from the head of `public/index.html` prior to initializing the package/setting up SASS.
 
 #### Note about Yarn vs NPM
 
