@@ -1,5 +1,9 @@
 # React-Router-Bulma-Boilerplate
-A boilerplate React web app created with react-create-app, Bulma CSS in `/public` and  in `/node_modules`, and React Router-DOM set up
+A boilerplate React web app created with react-create-app, with:
+
+1. Bulma CSS in `/public` and  in `/node_modules`
+2. React Router-DOM set up, with `<Router>` in App.js
+3. FontAwesome CSS and Fonts in `/public`
 
 ### Installation
 
