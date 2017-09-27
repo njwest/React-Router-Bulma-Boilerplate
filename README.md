@@ -1,4 +1,4 @@
-# React-Router-Bulma-Boilerplate
+# React-Router/Bulma Boilerplate
 A boilerplate React web app created with react-create-app, with:
 
 1. Bulma CSS in `/public` and  in `/node_modules`
