@@ -19,7 +19,7 @@ export default class TopNav extends Component {
         <div className="container">
           <div className="nav-left">
             <a className="nav-item">
-              <img src="images/bulma-type-white.png" alt="Logo"/>
+              <img src="images/bulma-type-white.png" alt="Nick West"/>
             </a>
           </div>
           <span className="nav-toggle" onClick={toggleNav}>
@@ -28,32 +28,24 @@ export default class TopNav extends Component {
             <span></span>
           </span>
           <div className="nav-right nav-menu" id="nav-menu">
-            <a className="nav-item is-active">
-              <Link to="/">
+              <Link to="/" className="nav-item">
                 Home
               </Link>
-            </a>
-            <a className="nav-item">
-              <Link to="/code">
+              <Link to="/code" className="nav-item">
                 Code
               </Link>
-            </a>
-            <a className="nav-item">
-              <Link to="/about">
+              <Link to="/about" className="nav-item">
                 About
               </Link>
-            </a>
-            <a className="nav-item">
-              <Link to="/contact">
+              <Link to="/contact" className="nav-item">
                 Contact
               </Link>
-            </a>
             <span className="nav-item">
-              <a className="button is-primary is-inverted">
+              <a className="button is-black is-inverted">
                 <span className="icon">
                   <i className="fa fa-github"></i>
                 </span>
-                <span>Download CV</span>
+                <span>Github</span>
               </a>
             </span>
           </div>

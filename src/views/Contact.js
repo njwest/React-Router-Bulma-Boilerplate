@@ -2,7 +2,7 @@ import React from 'react';
 import TopNav from '../components/TopNav'
 
 export const Contact = () => (
-  <section className="hero is-primary is-fullheight">
+  <section className="hero is-info is-fullheight">
     <div className="hero-head">
       <TopNav/>
     </div>
