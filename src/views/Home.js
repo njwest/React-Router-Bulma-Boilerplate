@@ -1,5 +1,5 @@
 import React from 'react';
-import TopNav from '../components/TopNav'
+import TopNav from '../components/TopNav';
 
 export const Home = () => (
   <section className="hero is-black is-fullheight">

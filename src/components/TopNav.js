@@ -19,7 +19,7 @@ export default class TopNav extends Component {
         <div className="container">
           <div className="nav-left">
             <a className="nav-item">
-              <img src="images/bulma-type-white.png" alt="Nick West"/>
+              <img src="" alt="React Bulma"/>
             </a>
           </div>
           <span className="nav-toggle" onClick={toggleNav}>
